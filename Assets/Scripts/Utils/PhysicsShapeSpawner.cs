@@ -31,7 +31,7 @@ public class PhysicsShapeSpawner : MonoBehaviour
     /// <summary>
     /// １フレームあたりの生成数
     /// </summary>
-    private static readonly int SpawnByFrame = 50;
+    private static readonly int SpawnByFrame = 150;
 
     /// <summary>
     /// 範囲
