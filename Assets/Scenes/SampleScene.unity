@@ -136,6 +136,7 @@ GameObject:
   - component: {fileID: 196145234}
   - component: {fileID: 196145233}
   - component: {fileID: 196145237}
+  - component: {fileID: 196145238}
   m_Layer: 0
   m_Name: DotsCube
   m_TagString: Untagged
@@ -231,7 +232,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea7d7495833204790ba1d3a8755397f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ConversionMode: 1
+  ConversionMode: 0
+--- !u!114 &196145238
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 196145232}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4cf80fd915e953b459cd5ea4728cf177, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 90
 --- !u!1 &246579835
 GameObject:
   m_ObjectHideFlags: 0

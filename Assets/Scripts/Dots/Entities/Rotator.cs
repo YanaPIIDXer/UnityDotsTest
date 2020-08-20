@@ -6,7 +6,7 @@ namespace Dots.Entities
     /// 回転Entity
     /// </summary>
     [GenerateAuthoringComponent]
-    public class Rotator : IComponentData
+    public struct Rotator : IComponentData
     {
         public float Speed;
     }
